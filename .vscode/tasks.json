@@ -9,7 +9,16 @@
             "problemMatcher": "$tsc-watch",
             "isBackground": true,
             "presentation": {
-                "reveal": "never"
+                "reveal": "never",
+                "panel": "dedicated",
+                "focus": false,
+                "showReuseMessage": false, 
+                "echo": true,
+                "group": "build",
+                "revealProblems": "onProblem"
+            },
+            "runOptions": {
+              "runOn": "folderOpen"
             },
             "group": {
                 "kind": "build",
