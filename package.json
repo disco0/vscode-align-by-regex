@@ -2,7 +2,7 @@
     "name": "align-by-regex",
     "displayName": "Align by RegEx",
     "description": "Aligns selected lines of text by a regular expression.",
-    "version": "1.0.5",
+    "version": "1.0.4",
     "icon": "images/icon.png",
     "publisher": "janjoerke",
     "license": "LICENSE.txt",
@@ -41,12 +41,6 @@
                 "align.by.regex.templates": {
                     "type": "object",
                     "description": "Stored RegEx templates."
-                },
-                "align.by.regex.ignoreFocusOut": {
-                    "type": "boolean",
-                    "default": false,
-                    "description": "When enabled input boxes created by this extension's commands will remain open when focus is lost.",
-                    "markdownDescription": "When enabled input boxes created by this extension's commands will remain open when focus is lost."
                 }
             }
         }
